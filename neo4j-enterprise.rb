@@ -26,10 +26,11 @@ class Neo4jEnterprise < Formula
     bin.env_script_all_files(libexec/"bin", :NEO4J_HOME => ENV["NEO4J_HOME"])
 
     # Adjust UDC props
-    # Suppress the empty, focus-stealing java gui.
+    # Suppress the empty, focus-stealing java gui. And don't call home to mama.
     (libexec/"conf/neo4j.conf").append_lines <<~EOS
       wrapper.java.additional=-Djava.awt.headless=true
       wrapper.java.additional.4=-Dneo4j.ext.udc.source=homebrew
+      dbms.udc.enabled=false 
     EOS
   end
 
