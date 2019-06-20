@@ -2,7 +2,7 @@ class Neo4jEnterprise < Formula
   desc "Robust (fully ACID) transactional property graph database"
   homepage "https://neo4j.com/"
   url "dist.neo4j.org/neo4j-enterprise-3.5.6-unix.tar.gz"
-  #sha256 "a33df85dbdd22297d5bc9962bd42f7e70c3703ba3067b1adeaf5c18240944f37"
+  sha256 "0d738dd5bd04aaf15c672e27833480339de5bbe85a56cc932bd15aa27fb99509"
 
   bottle :unneeded
 
