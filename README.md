@@ -14,3 +14,6 @@ brew install neo4j-enterprise
 ```
 
 All the usual commands such as `neo4j start` will work as expected, including `brew service` (if you want to run the instance as a service)
+
+# Licensing
+Neo4j Enterprise Edition is *not* free software. You should purchase a licence from GraphAware or Neo4j if you want to use it.
