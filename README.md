@@ -3,7 +3,7 @@
 To install the **enterprise edition** of Neo4j using Homebrew on [macOS](https://brew.sh) or [linux](https://github.com/Linuxbrew/brew), first install this tap (you only need to do this once):
 
 ```
-brew tap graphaware/neo4j-enterprise
+brew tap mambofish/neo4j-enterprise
 brew unlink neo4j # in case you're linked to the latest community version
 ```
 
