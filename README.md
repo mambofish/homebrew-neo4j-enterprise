@@ -10,7 +10,7 @@ brew unlink neo4j # in case you're linked to the latest community version
 After the tap is installed, install the latest enterprise edition of Neo4j:
 
 ```
-brew install neo4j-enterprise
+brew install mambofish/neo4j-enterprise/neo4j-enterprise
 ```
 
 All the usual commands such as `neo4j start` will work as expected, including `brew service` (if you want to run the instance as a service)
