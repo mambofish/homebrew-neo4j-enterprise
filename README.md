@@ -1,4 +1,4 @@
-# Latest Version: 4.1.1
+# Latest Version: 4.1.11
 
 # Install Enterprise Neo4j using Homebrew on macOS/linux
 
