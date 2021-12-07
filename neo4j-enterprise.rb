@@ -6,7 +6,7 @@ class Neo4jEnterprise < Formula
 
   bottle :unneeded
 
-  depends_on :java => "1.8"
+  depends_on "openjdk@8"
 
   def install
     ENV["NEO4J_HOME"] = libexec
