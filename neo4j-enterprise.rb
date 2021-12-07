@@ -4,8 +4,6 @@ class Neo4jEnterprise < Formula
   url "dist.neo4j.org/neo4j-enterprise-4.1.11-unix.tar.gz"
   sha256 "ead976d3a803a3a17a486eb244774c66a24f6ca432d5fda92b7f41a1d96bde8c"
 
-  bottle :unneeded
-
   depends_on "openjdk@8"
 
   def install
