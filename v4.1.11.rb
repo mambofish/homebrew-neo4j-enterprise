@@ -1,4 +1,4 @@
-class 4111 < Formula
+class V4111 < Formula
   desc "Robust (fully ACID) transactional property graph database"
   homepage "https://neo4j.com/"
   url "dist.neo4j.org/neo4j-enterprise-4.1.11-unix.tar.gz"
