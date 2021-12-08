@@ -1,4 +1,4 @@
-class Neo4jEnterpriseAt35 < Formula
+class Neo4jEnterpriseAT35 < Formula
   desc "Robust (fully ACID) transactional property graph database"
   homepage "https://neo4j.com/"
   url "dist.neo4j.org/neo4j-enterprise-3.5.6-unix.tar.gz"
