@@ -1,6 +1,6 @@
 # Latest Version: 5.3.0
 
-# Install Enterprise Neo4j 5 using Homebrew on macOS/linux
+# Install Neo4j Enterprise using Homebrew on macOS/linux
 
 To install the **enterprise edition** of Neo4j using Homebrew on [macOS](https://brew.sh) or [linux](https://github.com/Linuxbrew/brew), first install this tap (you only need to do this once):
 
