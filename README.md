@@ -1,4 +1,4 @@
-# Latest Version: 4.1.11
+# Latest Version: 5.3.0
 
 # Install Enterprise Neo4j using Homebrew on macOS/linux
 
@@ -19,3 +19,12 @@ All the usual commands such as `neo4j start` will work as expected, including `b
 
 # Licensing
 Neo4j Enterprise Edition is *not* free software. You should purchase a licence from Neo4j if you want to use it.
+
+# Alternative Versions
+ 
+## Version 4.4.16 (LTS)
+```
+brew install mambofish/neo4j-enterprise/neo4j-enterprise@44
+```
+
+## Version 3.5 
