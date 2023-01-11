@@ -20,11 +20,14 @@ All the usual commands such as `neo4j start` will work as expected, including `b
 # Licensing
 Neo4j Enterprise Edition is *not* free software. You should purchase a licence from Neo4j if you want to use it.
 
-# Alternative Versions
+# Older Versions
  
-## Version 4.4.16 (LTS)
+## 4.4.16 (LTS)
 ```
 brew install mambofish/neo4j-enterprise/neo4j-enterprise@44
 ```
 
-## Version 3.5 
+## 3.5.6
+```
+brew install mambofish/neo4j-enterprise/neo4j-enterprise@35
+```
