@@ -31,7 +31,7 @@ class Neo4jEnterpriseAT44 < Formula
     (var/"log").mkpath
   end
 
-  plist_options :manual => "neo4j start"
+  service.require_root :manual => "neo4j start"
 
   def plist; <<~EOS
     <?xml version="1.0" encoding="UTF-8"?>
